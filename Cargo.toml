@@ -1,6 +1,6 @@
 [package]
 name = "samplerate"
-version = "0.2.0"
+version = "0.2.4"
 authors = ["Frederick Gnodtke <frederick@gnodtke.net>"]
 readme = "README.md"
 categories = ["multimedia::audio"]
@@ -20,3 +20,4 @@ sys = ["libsamplerate-sys"]
 
 [dev-dependencies]
 hound = "3.4"
+rstest = "0.6"
